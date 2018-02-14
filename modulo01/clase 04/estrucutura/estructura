@@ -1,0 +1,24 @@
+se agregan las siguientes etiquetas semanticas:
+
+header 
+-- contenedor de informacion principal de tu contenido
+
+nav
+-- contenedor de menu de navegacion
+
+section
+-- contenedor de información relacionada entre si o información especifica
+
+aside
+-- contenedor de informacion relacionada tangencialmente 
+
+article
+-- contenedor de informacion independiente 
+
+footer
+-- contenedor de informacion de cierre de tu contenido
+
+
+main
+-- contenedor de toda tu información
+

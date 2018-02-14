@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1>Ejemplos Formularios</h1>
+		<form action="success.html">
+			<label>Fecha de Registro</label>
+			<input type="text" name="inp_fecha" value="13/02/2018" readonly><br>
+
+			<label>Ingresa tu nombre</label>
+			<input type="text" name="inp_nombre" required placeholder="Nombres y apellidos">
+			<br>
+			<label>Ingresa tus apellidos</label>
+			<input type="text"  name="inp_apellidos">
+			<br>
+			<label>Registra tu clave</label>
+			<input type="password"  name="inp_password">
+
+			<br>
+			<label>Selecciona el curso que deseas llevar: </label>
+			<br>
+			
+			<label> <input type="checkbox" name="inp_curso"> Html</label>
+			<br>
+			
+			<label><input type="checkbox" name="inp_curso">CSS</label>
+			<br>
+
+			<label><input type="checkbox" name="inp_curso">JS</label>
+			<br>
+
+
+			<br>
+			<label>Selecciona el horario: </label>
+			<br>
+			
+			<label> <input type="radio" name="inp_horario"> Mañana</label>
+			<br>
+			
+			<label><input type="radio" name="inp_horario">Tarde</label>
+			<br>
+
+			<label><input type="radio" name="inp_horario">Noche</label>
+			<br>
+			<label>Selecciona el dristro en donde vives:</label><br>
+
+			<select>
+				<option value="0" disabled selected>Selecciona tu distrito</option>
+				<option value="14">Lince</option>
+				<option value="15">Jesús María</option>
+				<option value="16">Miraflores</option>
+				<option value="sanisidro" >San isidro</option>
+				<option value="lavictorio">La victoria</option>
+				<option value="cercado">Cercado</option>
+				<option value="Pueblo Libre">Pueblo Libre</option>
+
+			</select>
+			<br><br>
+			<textarea placeholder="ingresa tu comentario"></textarea>
+				<br><br>
+			<button>
+				<img src="icono.jpg">
+			</button>
+			<!--<input type="submit" name="inp_ejecutar">-->
+
+
+
+		</form>
+	</body>
+</html>
