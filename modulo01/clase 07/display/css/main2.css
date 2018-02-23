@@ -1,0 +1,33 @@
+.title{
+	background-color: red;
+	color: white;
+	width: 100px;
+
+}
+.text{
+	background-color: green;
+	color: white;
+	width: 1000px;
+}
+
+.box1{
+background-color: blue;
+width: 100px;
+height: 100px;
+display: inline-block;
+vertical-align: top;
+}
+.box2{
+	background-color: red;
+	width: 100px;
+height: 150px;
+display: inline-block;
+vertical-align: top;
+}
+.box3{
+	background-color: orange;
+	width: 100px;
+height: 200px;
+display: inline-block;
+vertical-align: top;
+}
