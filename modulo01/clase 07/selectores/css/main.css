@@ -1,0 +1,15 @@
+.sec-nosotros .title{
+color: red;
+}
+
+.sec-servicios .title{
+color: blue;
+}
+.sec-servicios h2.title
+{
+		font-family: arial;
+}
+
+h2.title{
+	font-family: times;
+}

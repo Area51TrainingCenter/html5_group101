@@ -1,0 +1,30 @@
+/*selector por etiqueta*/
+h1{
+	color: red;
+}
+p{
+	color:maroon;
+}
+/*selector por ID */
+
+#parrafo1{
+	color: orange;
+}
+
+
+#parrafo2{
+	color: blue;
+}
+
+/* selector class */
+.texto1{
+	color: green;
+}
+.negrita{
+	font-weight: bold;
+}
+
+.nuevo-color{
+	color: yellow;
+}
+
