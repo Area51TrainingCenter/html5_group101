@@ -1,0 +1,14 @@
+.box1{
+	width: 300px;
+	height: 400px;
+	background-color: green;
+	display: inline-block;	
+	vertical-align: top;
+}
+.box2{
+	width: 300px;
+	height: 200px;
+	background-color: skyblue;
+	display: inline-block;
+	vertical-align: top;
+}
