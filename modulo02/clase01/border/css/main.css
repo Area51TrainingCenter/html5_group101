@@ -1,0 +1,11 @@
+.title{
+	color: black;
+	font-size: 30px;
+	font-family: arial;
+	display: inline-block;
+	/*border:1px solid black;*/
+	border-bottom:3px solid red;
+	/*text-decoration: underline;*/
+	padding: 20px;
+
+}

@@ -1,0 +1,18 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+.texto{
+	width: 300px;
+	background-color: red;
+	color: white;
+	font-size: 16px;
+	font-family: arial;
+	margin:10px;
+	padding: 20px;
+	border:100px solid blue;
+	
+}
