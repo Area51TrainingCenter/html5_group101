@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.ui-bar-top{
+	background-color: black;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.centro{
+	width: 1024px;
+	margin:0 auto;
+}
+
+.lista-redes{
+float: left;
+color: #999999;
+font-size: 14px;
+}
+.lista-redes li{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 8px;
+}
+
+.lista-contacto{
+	float: right;
+	color: #999999;
+	font-size: 12px;
+	font-weight: 300;
+
+}
+.lista-contacto li{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+.clear{
+	clear: both;
+}
+.logo-site{
+
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.logo-site img{
+	width: 120px;
+}
