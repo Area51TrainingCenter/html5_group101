@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+body{
+	font-family: arial;
+}
+.header-site{
+	color: white;
+	background-color: black;
+	padding: 10px 15px;
+}
+.title-site{
+	float: left;
+}
+.ico-menu{
+	float: right;
+}
+
+.bloque-principal{
+	width: 100%;
+background-image: url(../img/fondo.jpg);
+	text-align: center;
+	padding-top: 180px;
+	padding-bottom: 180px;
+	background-size: cover;
+	background-position: center;
+}
+.title-bloque{
+font-size: 40px;
+text-transform: uppercase;
+margin-bottom: 20px;
+text-shadow: 2px 2px 2px white;
+
+}
+.text-bloque{
+	font-size: 20px;
+line-height: 1.5;
+text-shadow: 1px 1px 3px white;
+
+}
+.clear{
+	clear: both;
+}
