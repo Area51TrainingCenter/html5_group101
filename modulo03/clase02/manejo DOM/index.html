@@ -8,13 +8,22 @@
 			font-weight: bold;
 			font-family: arial;
 		}
+		.lines li{
+			list-style-type: none;
+			counter-increment: linea; 
+		}
+		.lines li:before{
+			content: counter(linea);
+			margin-right: 10px;
+
+		}
 	</style>	
 </head>
 <body>
 <h1 id="title">Manejando el DOM</h1>
 <p id="texto" class="hola">Vamos a modificar la clase de esta etiqueta</p>
 
-
+</pre>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 

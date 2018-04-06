@@ -22,6 +22,12 @@
 			padding: 20px 25px;
 			font-family: arial;
 			font-size: 20px;
+			transition:all 0.2s linear;
+		}
+		.nav-site li.activo{
+			background-color: red;
+			color: black;
+
 		}
 	</style>
 </head>
@@ -30,13 +36,59 @@
 	<header>
 		<nav class="nav-site">
 			<ul>
-				<li>INICIO</li>
-				<li>NOSOTROS</li>
-				<li>SERVICIOS</li>
+				<li id="inicio-menu">INICIO</li>
+				<li id="nosotros-menu">NOSOTROS</li>
+				<li id="servicios-menu">SERVICIOS</li>
 			</ul>
 		</nav>
 	</header>
 </div>
+
+<script type="text/javascript">
+	
+	var el1=document.getElementById('inicio-menu');
+	el1.addEventListener("click",opcion1)
+
+	function opcion1(){
+		  limpiarActivo();
+			el1.classList.add("activo");
+	}
+
+	var el2=document.getElementById("nosotros-menu");
+	el2.addEventListener("click",opcion2);
+	function opcion2(){
+		limpiarActivo();
+		el2.classList.add("activo");
+				
+	}
+	var el3=document.getElementById("servicios-menu");
+	el3.addEventListener("click",opcion3);
+	function opcion3(){
+		limpiarActivo();
+		el3.classList.add("activo");
+			
+	}
+	function limpiarActivo(){
+		el2.classList.remove("activo");
+		el1.classList.remove("activo");
+		el3.classList.remove("activo");
+	}
+
+
+
+
+	console.log("texto");
+
+	function imprimir(valor){
+		console.log(valor);
+	}
+
+	imprimir("hola");
+	 
+
+
+
+</script>
 
 </body>
 </html>
