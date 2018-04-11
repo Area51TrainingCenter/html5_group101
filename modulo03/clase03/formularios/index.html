@@ -3,8 +3,11 @@
 <head>
 	<title></title>
 	<style type="text/css">
+	body{
+		font-family: arial;
+	}
 	.form-data{
-		width: 700px;
+	
 		margin:0 auto;
 		font-family: arial;
 		font-size: 10px;
@@ -31,10 +34,23 @@
 		font-size: 16px;
 		border:0px;
 	}
+	.lista-usuarios {
+		list-style-type: none;
+		font-size: 20px;
+		font-family: arial;
+	}
+	.col-50{
+		width: 50%;
+		float: left;
+	}
+	.clear{
+		clear: both;
+	}
 	</style>
 </head>
 <body>
-
+<div class="container">
+<div class="col-50">
 <form class="form-data" action="http://www.google.com">
 	<div class="row-form">
 		<label>Nombres</label>
@@ -46,7 +62,7 @@
 	</div>
 	<div class="row-form">
 		<label>Correos</label>
-		<input type="text" name="" id="inp-correos">
+		<input type="text" name="" id="inp-correo">
 	</div>
 	<div class="row-form">
 
@@ -55,6 +71,18 @@
 
 </form>
 
+</div>
+<div class="col-50">
+<h2>Usuarios</h2>
+	<ul  class="lista-usuarios">
+		<li>Juan Carlos</li>
+		<li>Diego</li>
+		<li>Martín</li>
+		<li>Carlos</li>
+	</ul>
+</div>
+<div class="clear"></div>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 
