@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.container{
+			width: 970px;
+			margin:0 auto;
+		}
+		.col-50{
+			width: 50%;
+			float: left;
+		}
+		.clear{
+			clear: both;
+		}
+	</style>
+
+
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+
+
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+    	animation:"slide",
+    	direction:"vertical",
+    	startAt:2
+    });
+  });
+</script>
+
+</head>
+<body>
+	<div class="container">
+
+	<div class="col-50">
+		
+		<!-- Place somewhere in the <body> of your page -->
+		<div class="flexslider">
+		  <ul class="slides">
+		    <li>
+		      <img src="img/foto1.jpg" />
+		    </li>
+		    <li>
+		      <img src="img/foto2.jpg" />
+		    </li>
+		    <li>
+		      <img src="img/foto3.jpg" />
+		    </li>
+		  </ul>
+		</div>
+
+
+	</div>
+<div class="col-50">
+	
+	<!-- Place somewhere in the <body> of your page -->
+		<div class="flexslider">
+		  <ul class="slides">
+		    <li>
+		      <img src="img/foto1.jpg" />
+		    </li>
+		    <li>
+		      <img src="img/foto2.jpg" />
+		    </li>
+		    <li>
+		      <img src="img/foto3.jpg" />
+		    </li>
+		  </ul>
+		</div>
+
+
+</div>
+<div class="clear"></div>
+		
+
+	</div>
+</body>
+</html>
