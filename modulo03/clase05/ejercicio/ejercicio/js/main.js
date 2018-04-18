@@ -25,24 +25,38 @@ $(window).load(function(){
 		console.log(top);
 		if(top>300){
 			$(".link-up").fadeIn();
-
 		}
 		else{
 			$(".link-up").fadeOut();
 		}
+
+		if(top>100){
+			$(".header-site").addClass("fixed-menu");
+		}
+		else{
+			$(".header-site").removeClass("fixed-menu");
+		}
+
+
+
 	})
 
   $("#op-services").click(function(){
+
+  	var top_temporal;
+  	top_temporal=$("#services").offset().top;
   	$("html").animate(
 			{
-					scrollTop:647
+					scrollTop:top_temporal-120
 			},1000);
   })
 
   $("#portafolio").click(function(){
+  	var top_temporal;
+  	top_temporal=$("#project").offset().top;
   		$("html").animate(
 			{
-					scrollTop:1747
+					scrollTop:top_temporal-120
 			},1000);
   })
 
