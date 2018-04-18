@@ -31,10 +31,15 @@ $(window).load(function(){
 		}
 
 		if(top>100){
-			$(".header-site").addClass("fixed-menu");
+			$(".over-menu-fixed").addClass("show-menu");
+			//$(".over-menu-fixed").fadeIn();
+			//$(".header-site").addClass("fixed-menu");
 		}
 		else{
-			$(".header-site").removeClass("fixed-menu");
+			$(".over-menu-fixed").removeClass("show-menu");
+
+			//$(".over-menu-fixed").fadeOut();
+			//$(".header-site").removeClass("fixed-menu");
 		}
 
 
