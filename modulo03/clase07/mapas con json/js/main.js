@@ -1,7 +1,13 @@
 function pintarMapa(ele){
 	var longitud=$(ele).attr("data-longitud");
 	var latitud=$(ele).attr("data-latitud");
-	
+	var propiedades={
+		center:new google.maps.LatLng(latitud,longitud),
+		zoom:6
+	}
+	var bloque_mapa=document.getElementById("mapa-bloque");
+	var mapa=new google.maps.Map(bloque_mapa,propiedades);
+
 }
 
 $(window).load(function(){
