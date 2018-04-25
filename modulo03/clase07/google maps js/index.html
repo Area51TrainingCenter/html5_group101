@@ -28,6 +28,14 @@
 		//var mapa=new google.maps.Map("elemento html","propiedades");
 		var mapa=new google.maps.Map(bloque,propiedades);
 
+
+		var m1=new google.maps.Marker({
+			position:new google.maps.LatLng(-12.0884546,-77.0684481),
+			map:mapa,
+			animation:google.maps.Animation.BOUNCE,
+			icon:"photshop.png"
+		})
+
 		var marker=new google.maps.Marker({
 			position:new google.maps.LatLng(-12.1025662,-77.0248933),
 			map:mapa,
