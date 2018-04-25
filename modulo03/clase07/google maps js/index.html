@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+.box{
+	width: 100%;
+	height: 500px;
+	background-color: black;
+	}
+	</style>
+</head>
+<body>
+<div class="box" id="mapa"></div>
+<script type="text/javascript" src="estilosmapa.js"></script>
+<script type="text/javascript">
+
+	function crearMapa(){
+		var propiedades={
+			center: new google.maps.LatLng(-12.1025662,-77.0248933),
+			zoom:15,
+			styles:estilo2
+
+		}
+
+		var bloque=document.getElementById('mapa');
+
+		//var mapa=new google.maps.Map("elemento html","propiedades");
+		var mapa=new google.maps.Map(bloque,propiedades);
+
+		var marker=new google.maps.Marker({
+			position:new google.maps.LatLng(-12.1025662,-77.0248933),
+			map:mapa,
+			animation:google.maps.Animation.BOUNCE,
+			icon:"http://testing.sminnova.com/bloomtower/img/newiconos/markerv1.png"
+		})
+
+		var marker2=new google.maps.Marker({
+			position:new google.maps.LatLng(-12.1026819,-77.0266818),
+			map:mapa
+		})
+
+
+
+	}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCk_CbABg7qjepNCxVC90sDmXlNlF7kNQc&callback=crearMapa"></script>
+
+
+
+</body>
+</html>
+
+
+
