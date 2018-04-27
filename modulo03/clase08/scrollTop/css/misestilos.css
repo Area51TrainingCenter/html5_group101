@@ -17,7 +17,9 @@ body{
 
 .header-site{
 	background-color: #3a3d40;
-	border-bottom: 3px solid #4a4d50
+	border-bottom: 3px solid #4a4d50;
+	position: fixed;
+	top: 0px;
 }
 
 .ui-title-site{
@@ -30,6 +32,7 @@ padding-left: 26px;
 .ui-nav-site{
 	display: inline-block;
 	margin-left: 150px;
+
 }
 .ui-nav-site li{
 	display: inline-block;
